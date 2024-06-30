@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
  
-  "scripts": {
-    "build": "netlify-lambda build functions"
-  },
+  
+    "scripts": {
+      "build": "netlify-lambda build functions-build"
+    }
+  ,
+  
   "dependencies": {
     "cors": "^2.8.5",
     "json-server": "^0.17.1",
